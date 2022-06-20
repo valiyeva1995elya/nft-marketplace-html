@@ -1,0 +1,125 @@
+body, p, h1{
+    margin: 0;
+}
+
+.side-padding{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.mt-40{
+    margin-top: 40px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.flex{
+    display: flex;
+}
+
+.jc-sb{
+    justify-content: space-between;
+}
+
+header{
+    height: 110px;
+    border-bottom: 1px solid #EFEFEF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'DM Sans', sans-serif;
+}
+
+header > * {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 15%;
+    border-right: 1px solid #EFEFEF;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    font-weight: 500;
+}
+
+.actions{
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+}
+
+.action_button{
+    height: 50px;
+    border-radius: 60px;
+    box-sizing: border-box;
+    padding: 18px 40px;
+    background-color: white;
+    font-weight: 900;
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.purple-bg{
+    background-color: #3D00B7;
+    color: #fff;
+}
+
+.purple-b{
+    border: 2px solid #3D00B7;
+}
+
+.purple-t{
+    color: #3D00B7;
+}
+
+.action_input{
+    height: 50px;
+    border-radius: 60px;
+    border: 2px solid #EFEFEF;
+    box-sizing: border-box;
+    width: 300px;
+    padding: 0 20px;
+}
+
+input::placeholder{
+    font-weight: 700;
+    color: #b1b1b1;
+}
+
+.top{
+    display: flex;
+    margin-top: 50px;
+}
+
+.top_left{
+    width: 50%;
+}
+
+.title{
+    font-size: 48px;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 900;
+}
+
+.subtitle{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #565656;
+    line-height: 32px;
+}
+
+.statistics{
+    width: 70%;
+}
