@@ -3,13 +3,14 @@ body, p, h1{
 }
 
 .side-padding{
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .mt-40{
     margin-top: 40px;
 }
+
 
 .mt-20{
     margin-top: 20px;
@@ -17,11 +18,14 @@ body, p, h1{
 
 .flex{
     display: flex;
+    
+    
 }
 
 .jc-sb{
     justify-content: space-between;
 }
+
 
 header{
     height: 110px;
@@ -40,7 +44,7 @@ header > * {
 }
 
 .logo{
-    width: 15%;
+    width: 15% 0;
     border-right: 1px solid #EFEFEF;
 }
 
@@ -83,6 +87,7 @@ nav{
     color: #3D00B7;
 }
 
+
 .action_input{
     height: 50px;
     border-radius: 60px;
@@ -100,16 +105,32 @@ input::placeholder{
 .top{
     display: flex;
     margin-top: 50px;
+    justify-content: space-between;
 }
 
 .top_left{
     width: 50%;
+    
+}
+#img{
+    z-index: -1;
+    position: relative;
+    left: -48px;
+    top: -179px;  
+    width: 173px;
+    height: 160px;      
 }
 
 .title{
     font-size: 48px;
     font-family: 'Russo One', sans-serif;
     font-weight: 900;
+}
+.title-h{
+    font-size: 28px;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 700;
+    line-height: 34px;
 }
 
 .subtitle{
@@ -122,4 +143,56 @@ input::placeholder{
 
 .statistics{
     width: 70%;
+}
+.top-right{
+   
+    margin-right: 3%;
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 200px;
+    
+    background-color: rgba(217, 224, 236, 0.2);
+    
+    
+}
+.w-250{
+    width: 250px;
+}
+.title-small{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 10px;
+}
+.text-small{
+    font-size: 14px;
+    font-weight: 400;
+    color: #696969;
+    line-height: 22px;
+    font-family: 'DM Sans', sans-serif;
+}
+#icon-1{
+    position: relative;
+}
+#icon-1::before{
+    content: url(../img/card-tick-1\ 1.png);
+    position: absolute;
+    left: -55px;
+    top: -6px;
+
+}
+#icon-2{
+    position: relative;
+}
+#icon-2::before{
+    content: url(../img/chart-square\ 2.png);
+    position: absolute;
+    left: -55px;
+    top: -6px;
+
 }
